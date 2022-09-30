@@ -1,0 +1,9 @@
+window.dataLayer = window.dataLayer || [];
+
+function gtag() {
+    // @ts-ignore
+    dataLayer.push(arguments);
+}
+gtag('js', new Date());
+
+gtag('config', 'G-48SGWQ2H2C');
